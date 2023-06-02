@@ -54,6 +54,7 @@ pipeline {
                             -n $APP_NAMESPACE \
                             -t $TAG_TO_DEPLOY
                         """
+                    }
                 }
             }
         }
